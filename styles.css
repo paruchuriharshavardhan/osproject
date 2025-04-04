@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.gantt-chart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.gantt-segment {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 30px; /* Height of the Gantt segment */
+    line-height: 30px; /* Center text vertically */
+}
+
+.gantt-label {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    margin-top: -10px; /* Adjust as needed */
+}
+
+.gantt-time {
+    display: block;
+    font-size: 0.8em;
+}
